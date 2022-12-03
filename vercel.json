@@ -1,5 +1,12 @@
 {
     "version": 2,
+    "env" : [
+        "PORT": "@web_api_port",
+        "MONGODB_USER": "@web_api_mongo_user",
+        "MONGODB_PASSWORD": "@web_api_mongo_pass",
+        "SECRET_KEY": "@web_api_secret_key",
+        "HOST_URL": "@web_api_host_url"
+    ],
     "builds": [
         {
             "src": "src/main.ts",
