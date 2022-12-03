@@ -22,7 +22,7 @@ import {JwtModule} from "@nestjs/jwt";
     providers: [],
     imports: [
         ConfigModule.forRoot({
-            envFilePath: `.${process.env.NODE_ENV}.env`
+            envFilePath: `.env`
         }),
         ServeStaticModule.forRoot({
             rootPath: path.resolve(__dirname, 'static')
