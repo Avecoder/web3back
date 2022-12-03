@@ -3,7 +3,7 @@ import {CreateUserDto} from "../user/dtos/create-user.dto";
 import {UserService} from "../user/user.service";
 // @ts-ignore
 import {JwtService} from "@nestjs/jwt";
-import * as bcrypt from 'bcryptjs';
+import bcrypt from 'bcryptjs';
 import {FilesService} from "../files/files.service";
 
 @Injectable()
